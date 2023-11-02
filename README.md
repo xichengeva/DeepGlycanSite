@@ -15,7 +15,7 @@ If you want to train one of our models with the data then:
 2. unzip the directory and place it into `data` such that you have the path `data/PDBBind_processed`
 
 
-## Setup Environment
+# Setup Environment
 
 We will set up the environment using [Anaconda](https://docs.anaconda.com/anaconda/install/index.html). Clone the current repo
 
@@ -73,10 +73,10 @@ Use single_case_prediction.py for per protein and ligands, then combine the .pt 
     
     python DeepGlycanSite_lig.py --conf P2Y14_example/hparams.yaml --output-path DeepGlycanSite_lig
 
-## License
+# License
 MIT
 
-## Acknowledgements
+# Acknowledgements
 
 We thank Hualiang Jiang and Huaqiang Eric Xu for guiding us such a work.
 
