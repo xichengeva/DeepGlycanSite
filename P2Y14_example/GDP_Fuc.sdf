@@ -1,0 +1,344 @@
+135402013
+                    3D
+ Schrodinger Suite 2021-2.
+ 61 64  0  0  1  0            999 V2000
+   -3.8291    1.5966    1.3255 P   0  0  0  0  0  0
+   -1.2717    3.4115    1.4732 P   0  0  0  0  0  0
+   -1.1333   -1.3617   -0.8418 O   0  0  0  0  0  0
+    0.2759    1.8102    4.7164 O   0  0  0  0  0  0
+    0.6922    1.2171   -1.6079 O   0  0  0  0  0  0
+   -2.5319    0.3596   -2.9265 O   0  0  0  0  0  0
+   -4.1724    0.5848   -0.0053 O   0  0  0  0  0  0
+   -0.6884    2.3117    2.6349 O   0  0  0  0  0  0
+    1.1013    0.5225    1.4618 O   0  0  0  0  0  0
+    2.6645   -0.0496    4.6739 O   0  0  0  0  0  0
+    2.1662    3.2567    1.9627 O   0  0  0  0  0  0
+   -2.5078    2.4988    0.7544 O   0  0  0  0  0  0
+   -4.9808    2.5051    1.5214 O   0  5  0  0  0  0
+   -1.8669    4.5692    2.1774 O   0  5  0  0  0  0
+   -3.3713    0.7359    2.4409 O   0  0  0  0  0  0
+   -0.2263    3.6292    0.4484 O   0  0  0  0  0  0
+    0.7639   -4.5739   -6.5984 O   0  0  0  0  0  0
+   -0.1871   -2.0544   -2.8564 N   0  0  0  0  0  0
+   -1.0468   -3.5490   -4.3052 N   0  0  0  0  0  0
+    2.0737   -1.8321   -3.7909 N   0  0  0  0  0  0
+    2.3628   -3.2125   -5.7239 N   0  0  0  0  0  0
+    4.0759   -1.8567   -4.9212 N   0  0  0  0  0  0
+   -0.2245    0.3411   -2.2322 C   0  0  2  0  0  0
+   -1.6581    0.6887   -1.8622 C   0  0  2  0  0  0
+   -0.0725   -1.0992   -1.7118 C   0  0  1  0  0  0
+   -1.9111   -0.1904   -0.6293 C   0  0  1  0  0  0
+    1.9417    0.8602    2.5490 C   0  0  2  0  0  0
+    1.5891   -0.0397    3.7537 C   0  0  2  0  0  0
+   -3.3793   -0.5491   -0.3202 C   0  0  0  0  0  0
+    1.7595    2.3355    2.9509 C   0  0  2  0  0  0
+    0.2806    0.4005    4.4667 C   0  0  1  0  0  0
+    0.3601    2.6135    3.5413 C   0  0  2  0  0  0
+    0.8068   -2.3498   -3.7647 C   0  0  0  0  0  0
+    0.0032   -0.3406    5.7832 C   0  0  0  0  0  0
+   -1.2640   -2.8146   -3.2501 C   0  0  0  0  0  0
+    0.2700   -3.2642   -4.6493 C   0  0  0  0  0  0
+    1.0747   -3.7635   -5.7279 C   0  0  0  0  0  0
+    2.8153   -2.2886   -4.7845 C   0  0  0  0  0  0
+   -0.0455    0.3949   -3.3076 H   0  0  0  0  0  0
+   -1.7860    1.7494   -1.6441 H   0  0  0  0  0  0
+    0.8934   -1.3227   -1.2554 H   0  0  0  0  0  0
+   -1.4606    0.2903    0.2387 H   0  0  0  0  0  0
+    2.9692    0.6759    2.2319 H   0  0  0  0  0  0
+    1.4815   -1.0710    3.4146 H   0  0  0  0  0  0
+   -3.4159   -1.2365    0.5255 H   0  0  0  0  0  0
+   -3.8364   -1.0768   -1.1572 H   0  0  0  0  0  0
+    2.4690    2.5258    3.7572 H   0  0  0  0  0  0
+   -0.5553    0.1731    3.8034 H   0  0  0  0  0  0
+    0.2833    3.6578    3.8462 H   0  0  0  0  0  0
+    0.5311    1.2136   -0.6759 H   0  0  0  0  0  0
+   -2.4305   -0.5588   -3.1233 H   0  0  0  0  0  0
+   -0.0094   -1.4198    5.6300 H   0  0  0  0  0  0
+   -0.9663   -0.0528    6.1898 H   0  0  0  0  0  0
+    0.7551   -0.1158    6.5396 H   0  0  0  0  0  0
+   -2.2152   -2.8078   -2.7375 H   0  0  0  0  0  0
+    0.2126    0.7445    1.6991 H   0  0  0  0  0  0
+    2.7591    0.8218    5.0273 H   0  0  0  0  0  0
+    1.5219    3.2510    1.2683 H   0  0  0  0  0  0
+    2.9903   -3.5138   -6.4548 H   0  0  0  0  0  0
+    4.4469   -1.1830   -4.2664 H   0  0  0  0  0  0
+    4.6535   -2.1980   -5.6754 H   0  0  0  0  0  0
+  1  7  1  0  0  0
+  1 12  1  0  0  0
+  1 13  1  0  0  0
+  1 15  2  0  0  0
+  2  8  1  0  0  0
+  2 12  1  0  0  0
+  2 14  1  0  0  0
+  2 16  2  0  0  0
+  3 25  1  0  0  0
+  3 26  1  0  0  0
+  4 31  1  0  0  0
+  4 32  1  0  0  0
+  5 23  1  0  0  0
+  5 50  1  0  0  0
+  6 24  1  0  0  0
+  6 51  1  0  0  0
+  7 29  1  0  0  0
+  8 32  1  0  0  0
+  9 27  1  0  0  0
+  9 56  1  0  0  0
+ 10 28  1  0  0  0
+ 10 57  1  0  0  0
+ 11 30  1  0  0  0
+ 11 58  1  0  0  0
+ 17 37  2  0  0  0
+ 18 25  1  0  0  0
+ 18 33  1  0  0  0
+ 18 35  1  0  0  0
+ 19 35  2  0  0  0
+ 19 36  1  0  0  0
+ 20 33  1  0  0  0
+ 20 38  2  0  0  0
+ 21 37  1  0  0  0
+ 21 38  1  0  0  0
+ 21 59  1  0  0  0
+ 22 38  1  0  0  0
+ 22 60  1  0  0  0
+ 22 61  1  0  0  0
+ 23 24  1  0  0  0
+ 23 25  1  0  0  0
+ 23 39  1  0  0  0
+ 24 26  1  0  0  0
+ 24 40  1  0  0  0
+ 25 41  1  0  0  0
+ 26 29  1  0  0  0
+ 26 42  1  0  0  0
+ 27 28  1  0  0  0
+ 27 30  1  0  0  0
+ 27 43  1  0  0  0
+ 28 31  1  0  0  0
+ 28 44  1  0  0  0
+ 29 45  1  0  0  0
+ 29 46  1  0  0  0
+ 30 32  1  0  0  0
+ 30 47  1  0  0  0
+ 31 34  1  0  0  0
+ 31 48  1  0  0  0
+ 32 49  1  0  0  0
+ 33 36  2  0  0  0
+ 34 52  1  0  0  0
+ 34 53  1  0  0  0
+ 34 54  1  0  0  0
+ 35 55  1  0  0  0
+ 36 37  1  0  0  0
+M  CHG  2  13  -1  14  -1
+M  END
+> <s_m_entry_id>
+5063
+
+> <s_m_entry_name>
+GDP-Fuc_Structure2D_compound_CID_135402013.1
+
+> <s_m_Source_Path>
+E:\chrome_download
+
+> <s_m_Source_File>
+GDP-Fuc_Structure2D_compound_CID_135402013.sdf
+
+> <i_m_Source_File_Index>
+1
+
+> <s_m_job_name>
+confgen_2
+
+> <s_m_source_file>
+ligprep_230227.maegz
+
+> <i_m_source_file_index>
+2
+
+> <i_lp_mmshare_version>
+54117
+
+> <i_f3d_flags>
+0
+
+> <s_epik_input>
+W09IXVtDQEBIXTFbQ0BASF0oW09IXSlbQ0BASF0oW0NIM10pT1tDQEBIXShbQ0BASF0xW09IXSlPW1BAXSg9TykoW09IXSlPW1BAQF0oPU8pKFtPSF0pT1tDSDJdW0NASF0oW0NASF0oW09IXSlbQ0BIXTJbT0hdKU9bQ0BIXTJuM1tjSF1uYyhjMzQpYyg9TylbbkhdYyhuNClbTkgyXQ==
+
+> <s_epik_cmdline>
+J2VwaWtfcHl0aG9uJywgJy1waCcsICc3LjAnLCAnLXRuJywgJzgnLCAnLW1hJywgJzUwMCcsICctaW1hZScsICc8aW5maWxlLm1hZT4nLCAnLW9tYWUnLCAnPG91dGZpbGUubWFlPic=
+
+> <r_epik_Ionization_Penalty>
+  0.0020
+
+> <r_epik_Ionization_Penalty_Charging>
+  0.0019
+
+> <r_epik_Ionization_Penalty_Neutral>
+  0.0001
+
+> <r_epik_State_Penalty>
+  0.0000
+
+> <r_epik_Charging_Adjusted_Penalty>
+0.00194004413822981
+
+> <i_epik_Tot_Q>
+-2
+
+> <i_epik_Tot_abs_Q>
+2
+
+> <s_epik_Chemistry_Notes>
+This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+
+> <s_lp_Force_Field>
+S-OPLS
+
+> <r_lp_Energy>
+18.663719
+
+> <b_lp_Chiralities_Consistent>
+1
+
+> <s_lp_Variant>
+135402013-1
+
+> <r_lp_tautomer_probability>
+1
+
+> <PUBCHEM_COMPOUND_CID>
+135402013
+
+> <PUBCHEM_COMPOUND_CANONICALIZED>
+1
+
+> <PUBCHEM_CACTVS_COMPLEXITY>
+1040
+
+> <PUBCHEM_CACTVS_HBOND_ACCEPTOR>
+17
+
+> <PUBCHEM_CACTVS_HBOND_DONOR>
+9
+
+> <PUBCHEM_CACTVS_ROTATABLE_BOND>
+8
+
+> <PUBCHEM_CACTVS_SUBSKEYS>
+AAADceB7vAMAAAAAAAAAAAAAAAAAAWJAAAAkQAAAAAAAAEABgAAAHgAQCCAACBzxlgcHuBfMFxCoQQdxdICAgC0XEKABUAGoVECTWApAyCAeQIgPAQLXAGHwcAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+
+> <PUBCHEM_IUPAC_OPENEYE_NAME>
+[[5-(2-amino-6-oxo-1H-purin-9-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methoxy-hydroxy-phosphoryl] (3,4,5-trihydroxy-6-methyl-tetrahydropyran-2-yl) hydrogen phosphate
+
+> <PUBCHEM_IUPAC_CAS_NAME>
+[[5-(2-amino-6-oxo-1H-purin-9-yl)-3,4-dihydroxy-2-oxolanyl]methoxy-hydroxyphosphoryl] (3,4,5-trihydroxy-6-methyl-2-oxanyl) hydrogen phosphate
+
+> <PUBCHEM_IUPAC_NAME_MARKUP>
+[[5-(2-amino-6-oxo-1<I>H</I>-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] (3,4,5-trihydroxy-6-methyloxan-2-yl) hydrogen phosphate
+
+> <PUBCHEM_IUPAC_NAME>
+[[5-(2-amino-6-oxo-1H-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] (3,4,5-trihydroxy-6-methyloxan-2-yl) hydrogen phosphate
+
+> <PUBCHEM_IUPAC_SYSTEMATIC_NAME>
+[[5-(2-azanyl-6-oxidanylidene-1H-purin-9-yl)-3,4-bis(oxidanyl)oxolan-2-yl]methoxy-oxidanyl-phosphoryl] [6-methyl-3,4,5-tris(oxidanyl)oxan-2-yl] hydrogen phosphate
+
+> <PUBCHEM_IUPAC_TRADITIONAL_NAME>
+[[5-(2-amino-6-keto-1H-purin-9-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methoxy-hydroxy-phosphoryl] (3,4,5-trihydroxy-6-methyl-tetrahydropyran-2-yl) hydrogen phosphate
+
+> <PUBCHEM_IUPAC_INCHI>
+InChI=1S/C16H25N5O15P2/c1-4-7(22)9(24)11(26)15(33-4)35-38(30,31)36-37(28,29)32-2-5-8(23)10(25)14(34-5)21-3-18-6-12(21)19-16(17)20-13(6)27/h3-5,7-11,14-15,22-26H,2H2,1H3,(H,28,29)(H,30,31)(H3,17,19,20,27)
+
+> <PUBCHEM_IUPAC_INCHIKEY>
+LQEBEXMHBLQMDB-UHFFFAOYSA-N
+
+> <PUBCHEM_XLOGP3>
+-5.7
+
+> <PUBCHEM_EXACT_MASS>
+589.0822391
+
+> <PUBCHEM_MOLECULAR_FORMULA>
+C16H25N5O15P2
+
+> <PUBCHEM_MOLECULAR_WEIGHT>
+589.3
+
+> <PUBCHEM_OPENEYE_CAN_SMILES>
+CC1C(C(C(C(O1)OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=NC4=C3N=C(NC4=O)N)O)O)O)O)O
+
+> <PUBCHEM_OPENEYE_ISO_SMILES>
+CC1C(C(C(C(O1)OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=NC4=C3N=C(NC4=O)N)O)O)O)O)O
+
+> <PUBCHEM_CACTVS_TPSA>
+307
+
+> <PUBCHEM_MONOISOTOPIC_WEIGHT>
+589.0822391
+
+> <PUBCHEM_TOTAL_CHARGE>
+0
+
+> <PUBCHEM_HEAVY_ATOM_COUNT>
+38
+
+> <PUBCHEM_ATOM_DEF_STEREO_COUNT>
+0
+
+> <PUBCHEM_ATOM_UDEF_STEREO_COUNT>
+9
+
+> <PUBCHEM_BOND_DEF_STEREO_COUNT>
+0
+
+> <PUBCHEM_BOND_UDEF_STEREO_COUNT>
+0
+
+> <PUBCHEM_ISOTOPIC_ATOM_COUNT>
+0
+
+> <PUBCHEM_COMPONENT_COUNT>
+1
+
+> <PUBCHEM_CACTVS_TAUTO_COUNT>
+9
+
+> <PUBCHEM_COORDINATE_TYPE>
+1
+5
+255
+
+> <PUBCHEM_BONDANNOTATIONS>
+18  33  8
+18  35  8
+19  35  8
+19  36  8
+20  33  8
+20  38  8
+21  37  8
+21  38  8
+23  39  3
+24  40  3
+25  41  3
+26  42  3
+27  43  3
+28  44  3
+30  47  3
+31  48  3
+32  49  3
+33  36  8
+36  37  8
+
+> <r_f3d_energy>
+43.296612
+
+> <r_f3d_relative_energy>
+5.480293
+
+> <s_m_subgroup_title>
+135402013
+
+> <s_m_subgroupid>
+3
+
+> <b_m_subgroup_collapsed>
+0
+
+$$$$
