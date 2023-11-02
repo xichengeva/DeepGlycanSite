@@ -11,7 +11,7 @@ If you have any questions, feel free to open an issue or reach out to us: [wangd
 
 If you want to train one of our models with the data then: 
 1. download pdb ids from dataset/
-2. divide them to ligands and proteins, like 
+2. divide them to ligands and proteins
 2. unzip the directory and place it into `data` such that you have the path `data/PDBBind_processed`
 
 
