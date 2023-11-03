@@ -60,7 +60,7 @@ Run inference with receptor and ligand:
 
 Use a comma to connect pdb and ligand sdf to activate DeepGlycanSite+ligand model, P2Y14_example/P2Y14_af_GDP.txt will be the output file
 
-If auto-download fails, you can also download the checkpoints from https://huggingface.co/Xinheng/DeepGlycanSite/tree/main, just put rec_only.ckpt and with_ligand.ckpt to ./ckpt, and mol_pre_all_h_220816.pt to ./src/unimol_tools/weights
+If auto-download fails, you can also download the checkpoints from https://huggingface.co/Xinheng/DeepGlycanSite/tree/main or https://zenodo.org/records/10065607, just put rec_only.ckpt and with_ligand.ckpt to ./ckpt, and mol_pre_all_h_220816.pt to ./src/unimol_tools/weights
 
 Running per line takes 1-3 minutes on a normal desktop computer.
 
