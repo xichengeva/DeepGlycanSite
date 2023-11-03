@@ -6,6 +6,8 @@ import numpy as np
 import argparse
 import yaml
 import torch
+import requests  
+from tqdm import tqdm  
 
 class LoadFromFile(argparse.Action):
     # parser.add_argument('--file', type=open, action=LoadFromFile)
@@ -71,3 +73,46 @@ def set_output(args, string):
 
     return output, save_prefix
 
+
+  
+def auto_download(type):   
+    os.makedirs('ckpts',exist_ok=True)
+    def download_file(url, filename):  
+        print(f'downloading {filename}...')
+        response = requests.get(url, stream=True)  
+        total_size_in_bytes= int(response.headers.get('content-length', 0))  
+        block_size = 1024 #1 Kibibyte  
+        progress_bar = tqdm(total=total_size_in_bytes, unit='iB', unit_scale=True)  
+        with open(filename, 'wb') as file:  
+            for data in response.iter_content(block_size):  
+                progress_bar.update(len(data))  
+                file.write(data)  
+        progress_bar.close()  
+        if total_size_in_bytes != 0 and progress_bar.n != total_size_in_bytes:  
+            print("ERROR, something went wrong")  
+  
+    if type == 'rec':    
+        if not os.path.exists('ckpts/rec_only.ckpt'):    
+            url = 'https://huggingface.co/Xinheng/DeepGlycanSite/blob/main/rec_only.ckpt'  
+            alt_url = 'https://zenodo.org/records/10065607/files/rec_only.ckpt'  
+            try:  
+                download_file(url, 'ckpts/rec_only.ckpt')  
+            except:  
+                download_file(alt_url, 'ckpts/rec_only.ckpt')  
+  
+    elif type == 'lig':    
+        if not os.path.exists('ckpts/with_ligand.ckpt'):    
+            url = 'https://huggingface.co/Xinheng/DeepGlycanSite/blob/main/with_ligand.ckpt'  
+            alt_url = 'https://zenodo.org/records/10065607/files/with_ligand.ckpt'  
+            try:  
+                download_file(url, 'ckpts/with_ligand.ckpt')  
+            except:  
+                download_file(alt_url, 'ckpts/with_ligand.ckpt')  
+  
+        if not os.path.exists('src/unimol_tools/weights/mol_pre_all_h_220816.pt'):    
+            url = 'https://huggingface.co/Xinheng/DeepGlycanSite/blob/main/mol_pre_all_h_220816.pt'  
+            alt_url = 'https://zenodo.org/records/10065607/files/mol_pre_all_h_220816.pt'  
+            # try:  
+            #     download_file(url, 'src/unimol_tools/weights/mol_pre_all_h_220816.pt')  
+            # except:  
+            download_file(alt_url, 'src/unimol_tools/weights/mol_pre_all_h_220816.pt')  
