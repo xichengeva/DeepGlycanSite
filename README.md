@@ -28,25 +28,19 @@ This is an example of how to set up a working conda environment to run the code 
 
 For CPU:
     pip install torch==1.13.1+cpu torchvision==0.14.1+cpu torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cpu
-    
-    pip install torch_geometric
-    
+    pip install torch_geometric==2.3.0
     pip install "fair-esm[esmfold]"
-    
     pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-1.13.1+cpu.html
-    
-    pip install pytorch-lightning &&    pip install h5py &&    pip install  ase && pip install rdkit && pip install jupyter && pip install Bio && pip install pandas &&  pip install MDAnalysis
+    pip install pytorch-lightning==1.9.3 &&    pip install h5py==3.8.0 && pip install rdkit==2022.9.5 && pip install Bio==1.5.5 && pip install pandas==1.5.3 &&  pip install MDAnalysis==2.4.2  && pip install pymatgen==2023.7.20  && pip install tokenizers==0.13.3 && pip install lmdb==1.4.1 && pip install addict==2.4.0 && pip install transformers==4.30.0
 
 For GPU:
     pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
-    
-    pip install torch-geometric
-    
+    pip install torch-geometric==2.3.0
     pip install "fair-esm[esmfold]"
-    
     pip install torch-scatter torch-sparse torch-cluster torch-spline-conv torch-geometric -f https://data.pyg.org/whl/torch-1.13.1+cu116.html
-    
-    pip install pytorch-lightning &&    pip install h5py &&    pip install  ase && pip install rdkit && pip install jupyter && pip install Bio && pip install pandas &&  pip install MDAnalysis
+    pip install pytorch-lightning==1.9.3 && pip install h5py && pip install rdkit==2022.9.5 && pip install Bio==1.5.5 && pip install pandas==1.5.3 &&  pip install MDAnalysis==2.4.2  && pip install pymatgen==2023.7.20  && pip install tokenizers==0.13.3 && pip install lmdb==1.4.1 && pip install addict==2.4.0 && pip install transformers==4.30.0
+
+Installation may take 1 hours on a normal desktop computer.
 
 # Running DeepGlycanSite on test system 
 
@@ -65,6 +59,8 @@ Run inference with receptor and ligand:
 Use a comma to connect pdb and ligand sdf to activate DeepGlycanSite+ligand model, P2Y14_example/P2Y14_af_GDP.txt will be the output file
 
 If auto-download fails, you can also download the checkpoints from https://huggingface.co/Xinheng/DeepGlycanSite/tree/main, just put rec_only.ckpt and with_ligand.ckpt to ./ckpt, and mol_pre_all_h_220816.pt to ./src/unimol_tools/weights
+
+Running per line takes 1-3 minutes on a normal desktop computer.
 
 # Retraining DeepGlycanSite
 Use single_case_prediction.py for per protein and ligands, then combine the .pt files in out_path, and you can train it with DeepGlycanSite.py or DeepGlycanSite_lig.py with following codes:
