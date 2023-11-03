@@ -75,8 +75,3 @@ Use single_case_prediction.py for per protein and ligands, then combine the .pt 
 
 # License
 MIT
-
-# Acknowledgements
-
-We thank Hualiang Jiang and Huaqiang Eric Xu for guiding us in such a work.
-
