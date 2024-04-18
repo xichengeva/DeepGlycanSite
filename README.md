@@ -5,7 +5,18 @@ This repository contains all code, instructions, and model weights necessary to 
 If you have any questions, feel free to open an issue or reach out to us: [xicheng@simm.ac.cn](xicheng@simm.ac.cn)
 
 ![Alt Text](visualizations/overview.png)
+## Description
 
+**DeepGlycanSite** is an open-source method for carbohydrate-binding site detection, with or without known glycan. It can perform a whole range of carbohydrate-binding site prediction tasks.
+
+**Things DeepGlycanSite can do**
+- Discover common glycan binding site based on protein structure
+- Discover binding site for specified glycan based on protein structure
+- Guide mutation design for known glycan targets
+
+----
+
+# Table of contents
 1. [Dataset](#dataset)
 2. [Setup Environment](#setup-environment)
 3. [Running DeepGlycanSite on test system](#running-deepglycansite-on-test-system)
