@@ -90,4 +90,4 @@ Use single_case_prediction.py for per protein and ligands, then combine the .pt 
     python DeepGlycanSite_lig.py --conf P2Y14_example/hparams.yaml --output-path DeepGlycanSite_lig
 
 # License
-MIT
+Apache License 2.0
