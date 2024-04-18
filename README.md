@@ -6,11 +6,11 @@ If you have any questions, feel free to open an issue or reach out to us: [xiche
 
 ![Alt Text](visualizations/overview.png)
 
-1. [Dataset](#Dataset)
-2. [Setup Environment](#Setup Environment)
-3. [Running DeepGlycanSite on test system ](#Running DeepGlycanSite on test system )
-4. [Retraining DeepGlycanSite](#Retraining DeepGlycanSite)
-5. [License](#License)
+1. [Dataset](#dataset)
+2. [Setup Environment](#setup-environment)
+3. [Running DeepGlycanSite on test system](#running-deepglycansite-on-test-system)
+4. [Retraining DeepGlycanSite](#retraining-deepglycansite)
+5. [License](#license)
 
 # Dataset
 
