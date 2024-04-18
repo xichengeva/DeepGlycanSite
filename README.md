@@ -5,7 +5,7 @@ This repository contains all code, instructions, and model weights necessary to 
 If you have any questions, feel free to open an issue or reach out to us: [xicheng@simm.ac.cn](xicheng@simm.ac.cn)
 
 ![Alt Text](visualizations/overview.png)
-## Description
+# Description
 
 **DeepGlycanSite** is an open-source method for carbohydrate-binding site detection, with or without known glycan. It can perform a whole range of carbohydrate-binding site prediction tasks.
 
@@ -19,9 +19,11 @@ If you have any questions, feel free to open an issue or reach out to us: [xiche
 # Table of contents
 1. [Dataset](#dataset)
 2. [Setup Environment](#setup-environment)
-3. [Running DeepGlycanSite on test system](#running-deepglycansite-on-test-system)
-4. [Retraining DeepGlycanSite](#retraining-deepglycansite)
-5. [License](#license)
+   1. [For CPU](#For-CPU)
+   2. [For GPU](#For-GPU)
+4. [Running DeepGlycanSite on test system](#running-deepglycansite-on-test-system)
+5. [Retraining DeepGlycanSite](#retraining-deepglycansite)
+6. [License](#license)
 
 # Dataset
 
@@ -42,7 +44,7 @@ This is an example of how to set up a working conda environment to run the code 
     conda create --name DeepGlycanSite python=3.9
     conda activate DeepGlycanSite
 
-For CPU:
+## For CPU:
 
     pip install torch==1.13.1+cpu torchvision==0.14.1+cpu torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cpu
     pip install torch_geometric==2.3.0
@@ -50,7 +52,7 @@ For CPU:
     pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-1.13.1+cpu.html
     pip install pytorch-lightning==1.9.3 &&    pip install h5py==3.8.0 && pip install rdkit==2022.9.5 && pip install Bio==1.5.5 && pip install pandas==1.5.3 &&  pip install MDAnalysis==2.4.2  && pip install pymatgen==2023.7.20  && pip install tokenizers==0.13.3 && pip install lmdb==1.4.1 && pip install addict==2.4.0 && pip install transformers==4.30.0
 
-For GPU:
+## For GPU:
 
     pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
     pip install torch-geometric==2.3.0
