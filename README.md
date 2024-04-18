@@ -1,11 +1,16 @@
 # DeepGlycanSite: A Highly Accurate Carbohydrate-binding Site Prediction Algorithm
 
-Implementation of DeepGlycanSite, a state-of-the-art method for carbohydrate-binding site prediction.
+Official implementation of **DeepGlycanSite**, a state-of-the-art method for carbohydrate-binding site prediction.
 This repository contains all code, instructions, and model weights necessary to run the method or to retrain a model. 
 If you have any questions, feel free to open an issue or reach out to us: [xicheng@simm.ac.cn](xicheng@simm.ac.cn)
 
 ![Alt Text](visualizations/overview.png)
 
+1. [Dataset](#Dataset)
+2. [Setup Environment](#Setup Environment)
+3. [Running DeepGlycanSite on test system ](#Running DeepGlycanSite on test system )
+4. [Retraining DeepGlycanSite](#Retraining DeepGlycanSite)
+5. [License](#License)
 
 # Dataset
 
