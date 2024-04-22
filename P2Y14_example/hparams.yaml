@@ -1,7 +1,6 @@
 seed: 0
 dropout_rate: 0.1468558190536503
 batch_size: 4
-output_path: vis
 hidden_dim: 256
 residual_layers: 21
 num_heads_visnet: 16
