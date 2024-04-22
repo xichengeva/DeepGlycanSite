@@ -15,7 +15,6 @@ num_heads_visnet: 32
 num_layers_visnet: 11
 num_rbf: 128
 residual_layers: 15
-results_dir: vis_rec
 seed: 1
 trainable_rbf: true
 vecnorm_trainable: true
