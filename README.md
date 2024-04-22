@@ -74,7 +74,7 @@ P2Y14_example/P2Y14_af.txt will be the output file and the second column is the 
 
 Run inference with receptor and ligand:
 
-    python single_case_prediction.py --conf hparams.yaml  --ckpt_path ckpts/with_ligand.ckpt --input_fn P2Y14_example/P2Y14_AF.pdb,P2Y14_example/GDP.sdf --out_path P2Y14_example/ --output_fn P2Y14_af_GDP.txt
+    python single_case_prediction.py --conf P2Y14_example/hparams.yaml  --ckpt_path ckpts/with_ligand.ckpt --input_fn P2Y14_example/P2Y14_AF.pdb,P2Y14_example/GDP.sdf --out_path P2Y14_example/ --output_fn P2Y14_af_GDP.txt
 
 Use a comma to connect pdb and ligand sdf to activate DeepGlycanSite+ligand model, P2Y14_example/P2Y14_af_GDP.txt will be the output file
 
