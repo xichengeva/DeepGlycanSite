@@ -51,6 +51,8 @@ This is an example of how to set up a working conda environment to run the code 
     pip install "fair-esm[esmfold]"
     pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-1.13.1+cpu.html
     pip install pytorch-lightning==1.9.3 &&    pip install h5py==3.8.0 && pip install rdkit==2022.9.5 && pip install Bio==1.5.5 && pip install pandas==1.5.3 &&  pip install MDAnalysis==2.4.2  && pip install pymatgen==2023.7.20  && pip install tokenizers==0.13.3 && pip install lmdb==1.4.1 && pip install addict==2.4.0 && pip install transformers==4.30.0
+    pip uninstall numpy 
+    pip install numpy==1.21.0
 
 ## For GPU:
 
@@ -59,6 +61,8 @@ This is an example of how to set up a working conda environment to run the code 
     pip install "fair-esm[esmfold]"
     pip install torch-scatter torch-sparse torch-cluster torch-spline-conv torch-geometric -f https://data.pyg.org/whl/torch-1.13.1+cu116.html
     pip install pytorch-lightning==1.9.3 && pip install h5py && pip install rdkit==2022.9.5 && pip install Bio==1.5.5 && pip install pandas==1.5.3 &&  pip install MDAnalysis==2.4.2  && pip install pymatgen==2023.7.20  && pip install tokenizers==0.13.3 && pip install lmdb==1.4.1 && pip install addict==2.4.0 && pip install transformers==4.30.0
+    pip uninstall numpy 
+    pip install numpy==1.21.0
 
 Installation may take 1 hours on a normal desktop computer.
 
