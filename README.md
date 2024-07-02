@@ -74,7 +74,7 @@ Run inference with only receptor:
 
     python single_case_prediction.py --conf P2Y14_example/hparams_rec.yaml  --ckpt_path ckpts/rec_only.ckpt --input_fn P2Y14_example/P2Y14_AF.pdb  --out_path P2Y14_example/ --output_fn P2Y14_af.txt
 
-P2Y14_example/P2Y14_af.txt will be the output file and the second column is the probability for prediction
+P2Y14_example/P2Y14_af.txt will be the output file and the second column is the probability for each residue. The closer to 1, the higher the likelyhood of interacting with carbohydrates. The Nth line means the Nth residue in the protein.
 
 Run inference with receptor and ligand:
 
