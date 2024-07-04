@@ -39,7 +39,12 @@ We will set up the environment using [Anaconda](https://docs.anaconda.com/anacon
 
     git clone https://github.com/xichengeva/DeepGlycanSite.git
 
-This is an example of how to set up a working conda environment to run the code (but make sure to use the correct pytorch, pytorch-geometric, cuda versions, or cpu only versions):
+To use conda or mamba to create the environment, you can use:
+
+    cd DeepGlycanSite
+    conda env create -f environment.yml
+
+This is an example of how to set up a working conda environment from scratch to run the code (but make sure to use the correct pytorch, pytorch-geometric, cuda versions, or cpu only versions):
 
     conda create --name DeepGlycanSite python=3.9
     conda activate DeepGlycanSite
@@ -52,7 +57,7 @@ This is an example of how to set up a working conda environment to run the code 
     pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-1.13.1+cpu.html
     pip install pytorch-lightning==1.9.3 &&    pip install h5py==3.8.0 && pip install rdkit==2022.9.5 && pip install Bio==1.5.5 && pip install pandas==1.5.3 &&  pip install MDAnalysis==2.4.2  && pip install pymatgen==2023.7.20  && pip install tokenizers==0.13.3 && pip install lmdb==1.4.1 && pip install addict==2.4.0 && pip install transformers==4.30.0
     pip uninstall -y numpy 
-    pip install numpy==1.21.0
+    pip install numpy==1.26.1
 
 ## For GPU:
 
@@ -62,9 +67,9 @@ This is an example of how to set up a working conda environment to run the code 
     pip install torch-scatter torch-sparse torch-cluster torch-spline-conv torch-geometric -f https://data.pyg.org/whl/torch-1.13.1+cu116.html
     pip install pytorch-lightning==1.9.3 && pip install h5py && pip install rdkit==2022.9.5 && pip install Bio==1.5.5 && pip install pandas==1.5.3 &&  pip install MDAnalysis==2.4.2  && pip install pymatgen==2023.7.20  && pip install tokenizers==0.13.3 && pip install lmdb==1.4.1 && pip install addict==2.4.0 && pip install transformers==4.30.0
     pip uninstall -y numpy 
-    pip install numpy==1.21.0
+    pip install numpy==1.26.1
 
-Installation may take 1 hours on a normal desktop computer.
+Installation may take 1 hours on a normal desktop computer. In case of any version incompatible, check the environment.yml file.
 
 # Running DeepGlycanSite on test system 
 
