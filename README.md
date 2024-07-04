@@ -69,7 +69,9 @@ This is an example of how to set up a working conda environment from scratch to 
     pip uninstall -y numpy 
     pip install numpy==1.26.1
 
-Installation may take 1 hours on a normal desktop computer. In case of any version incompatible, check the environment.yml file.
+Installation may take 1 hours on a normal desktop computer. 
+
+## In case any version is incompatible, check the environment.yml file.
 
 # Running DeepGlycanSite on test system 
 
