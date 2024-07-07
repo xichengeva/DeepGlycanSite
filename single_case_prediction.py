@@ -233,7 +233,21 @@ def pdb_to_esm_embedding(file_path):
     sequence = get_sequences_from_pdbfile(file_path)
 
     # Load ESM-2 model
-    model, alphabet = esm.pretrained.esm2_t33_650M_UR50D()
+    from urllib.error import HTTPError, URLError
+    try:
+        model, alphabet = esm.pretrained.esm2_t33_650M_UR50D()
+    except URLError or HTTPError:
+        print("Internet connection error. Trying to load model from $ESM_MODEL_PATH.")
+        try:
+            model, alphabet = esm.pretrained.load_model_and_alphabet_local(os.environ["ESM_MODEL_PATH"])
+        except:
+            print(
+                "Failed to load ESM model. Please download the following files to the same directory:\n",
+                "* https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t33_650M_UR50D.pt\n",
+                "* https://dl.fbaipublicfiles.com/fair-esm/regression/esm2_t33_650M_UR50D-contact-regression.pt\n",
+                "then set $ESM_MODEL_PATH as the direcory of esm2_t33_650M_UR50D.",
+            )
+            raise
     batch_converter = alphabet.get_batch_converter()
     model.eval()  # disables dropout for deterministic results
 
